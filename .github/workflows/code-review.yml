@@ -1,0 +1,12 @@
+name: PR Review Bot
+
+on:
+  pull_request:
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Static Analysis
+        run: echo "여기에 ESLint / SonarCloud 등 넣기"
