@@ -1,0 +1,10 @@
+* text=auto
+
+# LF로 고정하는 파일
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+.gitignore text eol=lf
