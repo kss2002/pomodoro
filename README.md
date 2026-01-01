@@ -43,6 +43,9 @@
 ### 📂 프로젝트 구조 (Project Structure)
 
 ```
+.github/workflows
+docs
+public
 src/
 ├── components/     # 재사용 가능한 UI 컴포넌트 (Timer, ControlButtons 등)
 ├── hooks/          # 커스텀 훅 (비즈니스 로직 분리: usePomodoro 등)
@@ -52,6 +55,7 @@ src/
 ├── stores/         # 전역 상태 관리 (Zustand: pomodoroStore)
 ├── types/          # TypeScript 타입 정의
 └── utils/          # 유틸리티 함수 (notification, timer 등)
+...
 ```
 
 ### 🚀 시작하기 (Getting Started)
