@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import { Btn } from './Btn';
-import { useTitle } from '@/hooks/useTitle';
+import { useTitle } from '../hooks/useTitle';
 
 export const Index = () => {
   useTitle();
