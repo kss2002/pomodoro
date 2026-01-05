@@ -50,11 +50,13 @@ src/
 ├── components/     # 재사용 가능한 UI 컴포넌트 (Timer, ControlButtons 등)
 ├── hooks/          # 커스텀 훅 (비즈니스 로직 분리: usePomodoro 등)
 ├── layout/         # 레이아웃 컴포넌트
+├── lib/            # shadcn / magic 유틸리티
 ├── pages/          # 페이지 단위 컴포넌트 (Home, Desc, NotFound)
 ├── routes/         # 라우팅 설정
 ├── stores/         # 전역 상태 관리 (Zustand: pomodoroStore)
 ├── types/          # TypeScript 타입 정의
 └── utils/          # 유틸리티 함수 (notification, timer 등)
+README.md
 ...
 ```
 
