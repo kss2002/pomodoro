@@ -1,4 +1,5 @@
 import { Clock, Target, Coffee, Repeat } from 'lucide-react';
+import { AuroraText } from '@/components/ui/aurora-text';
 
 type Step = {
   title: string;
@@ -68,7 +69,7 @@ export const Desc = () => {
     <div className="min-h-screen bg-linear-to-br from-gray-50 to-gray-100 p-4 sm:p-8">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl sm:text-5xl font-bold text-center text-gray-800 mb-12">
-          뽀모도로 기법이란?
+          <AuroraText>뽀모도로 기법이란?</AuroraText>
         </h1>
         <Card icon={Clock} title="소개">
           <p className="text-lg text-gray-700 leading-relaxed">
