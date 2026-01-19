@@ -37,7 +37,7 @@ export const Timer = ({ mode, timeLeft }: TimerProps) => {
   const config = getModeConfig();
 
   return (
-    <div className="flex flex-col items-center gap-6">
+    <div className="flex flex-col items-center gap-4">
       <div
         className={`relative flex flex-col items-center justify-center w-64 h-64 sm:w-80 sm:h-80 rounded-full border-8 ${config.borderClass} ${config.bgClass} transition-all duration-500`}
       >
@@ -46,7 +46,7 @@ export const Timer = ({ mode, timeLeft }: TimerProps) => {
           {formatTime(timeLeft)}
         </div>
       </div>
-      <div className={`text-xl sm:text-2xl font-semibold ${config.colorClass}`}>
+      <div className={`text-lg sm:text-2xl font-semibold ${config.colorClass}`}>
         {config.label}
       </div>
     </div>
