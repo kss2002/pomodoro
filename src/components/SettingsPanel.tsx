@@ -16,7 +16,7 @@ export const SettingsPanel = ({
     <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
       <button
         onClick={onToggleSound}
-        className={`flex items-center gap-2 px-6 py-3 rounded-lg transition-colors ${
+        className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-colors ${
           settings.enableSound
             ? 'bg-black hover:bg-sky-500 text-white'
             : 'bg-gray-200 hover:bg-gray-300 text-gray-600'
@@ -33,7 +33,7 @@ export const SettingsPanel = ({
 
       <button
         onClick={onToggleVibration}
-        className={`flex items-center gap-2 px-6 py-3 rounded-lg transition-colors ${
+        className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-colors ${
           settings.enableVibration
             ? 'bg-black hover:bg-sky-500 text-white'
             : 'bg-gray-200 hover:bg-gray-300 text-gray-600'
