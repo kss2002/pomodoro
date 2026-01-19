@@ -10,8 +10,8 @@ export const Home = () => {
   const { settings, toggleSound, toggleVibration } = useSettings();
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center gap-12 p-4">
-      <h1 className="text-4xl text-center sm:text-5xl font-bold text-gray-900">
+    <div className="min-h-screen flex flex-col items-center justify-center gap-10 p-2">
+      <h1 className="text-4xl text-center sm:text-6xl font-bold text-gray-900">
         <MorphingText texts={['hello', 'pomodoro', 'timer', ':)']} />
       </h1>
       <Timer mode={mode} timeLeft={timeLeft} />
